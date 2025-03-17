@@ -11,7 +11,7 @@
 ## 🔥 Why use this?
 
 - **No more committing secrets by accident** 🔥
-- **Quick and easy** – Just call `askSecret("API_KEY")`
+- **Quick and easy** – Just call `ask("my key")`
 - **Browser-friendly** – Uses `localStorage` to remember secrets temporarily
 - **No dependencies** – Just drop it in and go!
 
@@ -26,11 +26,11 @@ npm install ask-secret
 ```js
 import { ask } from "ask-secret";
 
-const API_SECRET = ask("MY_API_KEY");
+const API_KEY = ask("OpenAI secret key");
 
-if (API_SECRET) {
+if (API_KEY) {
   const apiClient = new SomeApiClient({
-    headers: { Authorization: `Bearer ${API_SECRET}` },
+    headers: { Authorization: `Bearer ${API_KEY}` },
   });
   console.log("✅ API Client initialized with secret.");
 } else {
