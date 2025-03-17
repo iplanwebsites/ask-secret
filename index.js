@@ -1,4 +1,4 @@
-export function askSecret(key) {
+export function ask(key) {
   const promptMessage = `${key} ?`;
   const localStorageKey = `secret_${btoa(key)}`;
 
@@ -23,7 +23,8 @@ export function askSecret(key) {
 }
 
 // Usage Example:
-const API_SECRET = askSecret("API_KEY");
+/*
+const API_SECRET = ask("API_KEY");
 
 if (API_SECRET) {
   const apiClient = new SomeApiClient({
@@ -33,3 +34,4 @@ if (API_SECRET) {
 } else {
   console.error("❌ No secret provided.");
 }
+*/

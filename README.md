@@ -24,9 +24,9 @@ npm install ask-secret
 ## 🎯 Usage
 
 ```js
-import { askSecret } from "ask-secret";
+import { ask } from "ask-secret";
 
-const API_SECRET = askSecret("MY_API_KEY");
+const API_SECRET = ask("MY_API_KEY");
 
 if (API_SECRET) {
   const apiClient = new SomeApiClient({
