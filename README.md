@@ -4,7 +4,7 @@
 
 ## 🚀 What is this?
 
-`ask-secret` is a tiny, no-nonsense utility that helps you **keep secrets out of your frontend code** while developing. Instead of hardcoding API keys, it **asks for them** via `window.prompt` and keeps them in `localStorage` (so you don’t have to type them every time).
+(`ask-secret`)[https://github.com/iplanwebsites/ask-secret] is a tiny, no-nonsense utility that helps you **keep secrets out of your frontend code** while developing. Instead of hardcoding API keys, it **asks for them** via `window.prompt` and keeps them in `localStorage` (so you don’t have to type them every time).
 
 ⚠️ **Not for production!** This is just a dev-time helper.
 
