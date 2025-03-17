@@ -1,0 +1,20 @@
+{
+  "name": "ask-secret",
+  "version": "1.0.0",
+  "description": "A lightweight utility to securely prompt and store secrets in localStorage.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iplanwebsites/ask-secret.git"
+  },
+  "keywords": ["secret", "localStorage", "prompt", "secure", "devtools", "frontend"],
+  "author": "iplanwebsites",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0",
+    "prepublishOnly": "npm run lint",
+    "lint": "echo \"No linting configured\" && exit 0"
+  },
+  "files": ["index.js"],
+  "type": "module"
+}
