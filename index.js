@@ -4,7 +4,7 @@ export function ask(key) {
 
   if (typeof localStorage === "undefined") {
     console.warn(
-      "🚨 localStorage is not available. This function only works in a browser context."
+      "🚨 localStorage is not available. The *ask-secret* function only works in a browser context."
     );
     return null;
   }
