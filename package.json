@@ -3,6 +3,13 @@
   "version": "1.0.2",
   "description": "A lightweight utility to securely prompt and store secrets in localStorage.",
   "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/iplanwebsites/ask-secret.git"
@@ -15,6 +22,6 @@
     "prepublishOnly": "npm run lint",
     "lint": "echo \"No linting configured\" && exit 0"
   },
-  "files": ["index.js"],
+  "files": ["index.js", "index.d.ts"],
   "type": "module"
 }
